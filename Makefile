@@ -5,11 +5,12 @@ test:
 	pytest --nbval-lax main.ipynb  # Test the Jupyter Notebook using nbval
 
 format:
-	black .
+	black *.py 
+	nbqa black *.ipynb 
 
 lint:
-	pylint main_script.py
-	pylint lib.py
+	ruff check *.py
+	nbqa ruff *.ipynb
 
 install:
 	pip install -r requirements.txt
