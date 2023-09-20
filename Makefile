@@ -1,15 +1,15 @@
 
 test:
-    pytest test_script.py
-    pytest test_lib.py
-    pytest --nbval-lax main.ipynb 
+	pytest test_script.py
+	pytest test_lib.py
+	pytest --nbval-lax main.ipynb  # Test the Jupyter Notebook using nbval
 
 format:
-    black .
+	black .
 
 lint:
-    pylint main_script.py
-    pylint lib.py
+	pylint main_script.py
+	pylint lib.py
 
 install:
-    pip install -r requirements.txt
+	pip install -r requirements.txt
