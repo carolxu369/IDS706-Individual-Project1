@@ -1,10 +1,16 @@
+"""This module contains functions for analyzing grades."""
+
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from lib import calculate, plot_histogram, plot_kde
 
-def analyze_grades(FILE_PATH):
-    df = pd.read_excel(FILE_PATH)
+def analyze_grades(file_path):
+    """
+    Analyze grades from an Excel file and display statistics and plots.
+
+    Args:
+        file_path (str): Path to the Excel file containing grades.
+    """
+    df = pd.read_excel(file_path)
 
     mean, median, std_dev = calculate(df)
     plot_histogram(df)
