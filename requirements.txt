@@ -7,3 +7,5 @@ pylint==2.9.6
 nbval==0.9.6   
 openpyxl==3.0.7 
 click==7.1.2  
+ruff
+nbqa
