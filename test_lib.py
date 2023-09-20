@@ -1,5 +1,6 @@
 from lib import calculate
 import pandas as pd
+import pytest
 
 def test_lib():
     FILE_PATH = 'grade.xlsx'
