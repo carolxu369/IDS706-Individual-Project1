@@ -1,5 +1,6 @@
 from main_script import analyze_grades
 import pandas as pd
+import pytest
 
 def test_script():
     FILE_PATH = 'grade.xlsx'
