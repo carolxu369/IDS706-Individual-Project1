@@ -30,8 +30,9 @@ This is a Python GitHub Repository of Continuous Integration using GitHub Action
 
 ## Report
 
-For this pandas descriptive statistics script, I used the pandas, matplotlib, and seaborn libraries in python to read a “grade.xlsx” and calculated the mean, median, and standard deviation.
+For this pandas descriptive statistics script, I used pandas, matplotlib, and seaborn libraries in python to read a “grade.xlsx” and calculated the mean, median, and standard deviation.
 Then, I generated two plots as following.
+This is the link to my video demo for this project https://youtu.be/C3jt4oKo5Zs. 
 
 - Mean: 76.94444444444444
 - Median: 85.0
